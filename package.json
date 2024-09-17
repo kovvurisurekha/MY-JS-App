@@ -4,14 +4,8 @@
   "description": "implementing ci/cd pipeline for colorify app.",
   "main": "colorify/index.js",
   "scripts": {
-<<<<<<< HEAD
     "build": "parcel build index.js",
     "test": "node index.js"
-    
-=======
-    "test": "node index.js",
-    "build": "parcel build src/index.html"
->>>>>>> 198336ba538f1c82238267561ef176fe0ecb52ee
   },
   "repository": {
     "type": "git",
