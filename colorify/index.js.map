@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAAS,4BAAM,KAAK;IAChB,MAAM,SAAS,SAAS,cAAc,CAAC;IACvC,OAAO,KAAK,GAAG,CAAC,iBAAiB,EAAE,MAAM,CAAC;AAC5C","sources":["index.js"],"sourcesContent":["function paint(color) {\r\n    const circle = document.getElementById('circleID');\r\n    circle.style = `background-color:${color}`;\r\n  }"],"names":[],"version":3,"file":"index.js.map"}

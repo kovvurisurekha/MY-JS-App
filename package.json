@@ -2,9 +2,11 @@
   "name": "colorify",
   "version": "1.0.0",
   "description": "implementing ci/cd pipeline for colorify app.",
-  "main": "index.js",
+  "main": "colorify/index.js",
   "scripts": {
-    "test": "jest"
+    "build": "parcel build index.js",
+    "test": "node index.js"
+    
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "puppeteer": "^23.3.1"
   }
 }
