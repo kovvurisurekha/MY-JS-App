@@ -1,0 +1,21 @@
+{
+  "name": "colorify",
+  "version": "1.0.0",
+  "description": "implementing ci/cd pipeline for colorify app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "My-JS-App"
+  },
+  "keywords": [
+    "\"javascript\""
+  ],
+  "author": "\"surekha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
